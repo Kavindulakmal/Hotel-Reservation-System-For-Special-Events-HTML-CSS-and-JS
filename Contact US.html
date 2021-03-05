@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/customerdetails.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" link rel="stylesheet"> 
+    </head>
+    <body>
+        <center>
+            <img src="images/logo.png">
+            <h1>Join with Us</h1>
+            <h3>We manage Your Event</h3>
+            <hr/>
+        </center>
+        
+        <!-- Header start from here -->
+        
+        <header> 
+            <div class="menu-bar">
+                <ul>
+                    
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="LetsTalk.html">Let's Chat</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Services</a></li>
+                     <li><a href="#">Our Works</a></li>
+                    <li><a href="Register.html" class="btn"><span>Sign In</span></a></li>
+                    <li><a href="Register.html" class="btn"><span>Sign Up</span></a></li>
+                    
+                </ul>
+                
+                
+            </div>
+        </header>
+        <!--end of header-->
+        
+                 <script type="text/javascript">
+                            alert ("Please use the following form to send your inquiry regarding any of our services, exhibitions and events. Your feedback is very important to us!");
+                        </script>
+        
+                        <h1>OUR LOCATION</h1>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+        <script>
+            function myMap() {
+                var mapProp= {
+                    center:new google.maps.LatLng(51.508742,-0.120850),
+                    zoom:5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        
+        
+        <div class="Contact-title">
+            <h1>Contact Form</h1>
+            <h2>Please use the following form to send your inquiry regarding any of our services, exhibitions and events. Your feedback is very important to us!
+
+</h2>
+        </div>
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="conn.php">
+            
+            <input name="name" type="text" class="form-control" placeholder="Name" required><br>   
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+                 
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+            
+            
+            </form>
+        </div>
+        
+        <!--Footer start from here-->
+        
+               <footer>
+           
+           <div class="body-content">
+            
+            <div class="footer">
+                <div class="inner-footer">
+                    <div class="footer-iterms">
+                        
+                    </div>
+                </div>
+                <div class="inner-footer">
+                    <div class="footer-iterms">
+                        <h2>Company</h2>
+                        <div class="border"></div>
+                        <ul>
+                            <a href=""><li>ABOUT US</li></a>
+                            <a href=""><li>TERMS & CONDITIONS</li></a>
+                            <a href=""><li>FAQ'S</li></a>
+                            <a href="Contact%20US.html"><li>CONTACT US</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer-iterms">
+                        <h2>Resources</h2>
+                        <div class="border"></div>
+                        <ul>
+                            <a href=""><li>HELP & SUPPORT</li></a>
+                            <a href=""><li>SITE MAP</li></a>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-iterms">
+                        <h2>Contact US</h2>
+                        <div class="border"></div>
+                        <ul>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i>No1 Duplication road Colombo3</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i>0117 544 801</li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i>support.ares@gmail.com</li>
+                        </ul>
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <center>copyright &copy; KAVINDU™ 2020 All rights reserved.</center>
+                
+            </div>
+        </div>
+           
+        </footer>
+        <!--end of footer-->
+        
+        
+        
+    </body>
+</html>

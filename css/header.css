@@ -1,0 +1,31 @@
+.menu-bar{
+    width: 100%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    background: #0B8B9D;
+    
+    
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.menu-bar ul li:hover{
+    background: #0DC9E3;
+    border-radius: 3px;
+}
